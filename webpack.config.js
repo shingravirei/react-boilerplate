@@ -22,7 +22,8 @@ module.exports = {
     },
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
-        publicPath: '/scripts/'
+        publicPath: '/scripts/',
+        historyApiFallback: true
     },
     devtool: 'source-map'
 };
